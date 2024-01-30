@@ -13,7 +13,7 @@ public class Day7 {
         System.out.println(longest(g, g.length));
     }
     public static int majorityeElement(int[] a, int size){
-        int target = a.length/2;
+		int target = a.length/2;
         int count = 0;
         ArrayList<Integer> array = new ArrayList<Integer>();
         for (int i = 0; i < size; i++) {
@@ -25,7 +25,7 @@ public class Day7 {
                 break;
             }
         }
-        return count;
+		return count;
     }
     public static long totalfine(long n, long date, long car[], long fine[]){
         long sum = 0;
