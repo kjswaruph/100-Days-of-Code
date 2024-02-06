@@ -35,7 +35,7 @@ public class Day16 {
 //    }
     public static long[] printFirstNegativeInteger(long[] A, int N, int K){
         ArrayList<Long> list  = new ArrayList<>();
-        Queue<Long> q = new LinkedList();
+        Queue<Long> q = new LinkedList<Number>();
         for( int i=0; i<K-1; i++){
             if(A[i] <0){
                 q.add(A[i]);

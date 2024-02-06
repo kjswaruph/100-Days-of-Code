@@ -28,7 +28,7 @@ public class Day15 {
 ////        return head.data;
 //        }
 }
-class LinkedList implements Queue<Long> {
+class LinkedList<I extends Number> implements Queue<Long> {
     Node head;
 
     @Override
